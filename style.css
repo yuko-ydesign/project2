@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+html{
+	height:100%;
+}
+
+body{
+	background-attachment:fixed;
+	background-image:url(../images/colorful.jpg);
+	height:100%;
+	max-width:100%;
+}
+
+#left{
+	padding-left:20px;
+	font-weight:300;
+}
+
+#left p{
+	padding-left:11px;
+}
+
+.logo{
+	padding-left:0;
+}
+
+.logo img{
+	padding:8px 0;
+	margin:40px auto;
+	padding-left:0;
+}
+
+.nav{
+	list-style-type:none;
+	margin:auto;
+	color:#FFF;
+	text-align:left;
+	padding-top:0;
+	padding-left:13px;
+}
+
+.nav li{
+	margin:7px 0;
+}
+
+#message{
+	padding-top:20px;
+	line-height:1.28;
+}
+
+#message p{
+	margin-top:0
+}
+	
+	
+li a:link {color:#FFF; text-decoration:none;}
+li a:visited {color:#FFF; text-decoration:none;}
+li a:hover {color:#FFF; text-decoration:none;}
+li a:active {color:#FFF; text-decoration:none;}
+
+#container{
+	position:relative;
+	color:#FFF;
+}
+	
+#left{
+	width:200px;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+#right{
+	float:right;
+	width:calc(100% - 200px);
+	position:absolute;
+	top:10px;
+	left:210px;
+}
+
+
+#message{
+	color:#FFF;
+	font-size:105px;
+	font-height:1.6;
+	margin-top:0px;
+	margin-bottom: 100px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.title{
+	margin:0;
+}
+
+#About{
+	margin:100px auto;
+	color:#FFF0FC;
+}
+
+h2{
+	font-size:18px;
+	margin:0;
+}
+
+#About p{
+	margin:5px;
+}
+
+.story{
+	margin-left:30px;
+}
+
+#Works{
+	margin:100px auto;
+	color:#FFE7D2;
+}
+
+.works{
+	width:800px;
+	display:flex;
+	flex-wrap: wrap;
+	margin:0 auto;
+	justify-content: space-evenly;
+	align-items: baseline;
+	margin-bottom:50px;
+	color:#FFE596;
+}
+
+.works a{
+	display:block;
+	padding-top:20px;
+}
+
+.square{
+	text-align:center;
+	padding:10px 10px;
+	border:1px #FFE596 solid;
+}
+
+.works a:link {color:#FFE596; text-decoration:none;}
+.works a:visited {color:#FFE596; text-decoration:none;}
+.works a:hover {color:#FFE596; text-decoration:none;}
+.works a:active {color:#FFE596; text-decoration:none;}
+
+
+
+#Contact{
+	margin:100px auto;
+	color:#92FFED;
+}
+
+#Contact a:link {color:#92FFED; text-decoration:underline}
+#Contact a:visited {color:#92FFED; text-decoration:underline;}
+#Contact a:hover {color:#92FFED; text-decoration:underline;}
+#Contact a:active {color:#92FFED; text-decoration:underline}
+
+.email{
+	margin-left:30px;
+}
+
+#footer{
+	text-align:center;
+	font-size:9px;
+	color:#FFF;
+}
+
+.sns{
+	margin-right:10px;
+}
+
+
+
